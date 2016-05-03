@@ -60,13 +60,13 @@ List of videos
 }]
 ```
 
-- id: Id of the camera on database;
-- title: Title of the camera;
-- video_address: Address of the video, can be a .mp4.
-- views: Total of view for the video.
-- user.id: Id of the user.
-- user.username: Name of the user.
-- user.followers: Number of people that follow the user.
-- status: 0 - Enabled, 1 - Live, 2 - Disabled, 3 - Banned
+- `id`: Id of the camera on database;
+- `title`: Title of the camera;
+- `video_address`: Address of the video, can be a .mp4.
+- `views`: Total of view for the video.
+- `user.id`: Id of the user.
+- `user.username`: Name of the user.
+- `user.followers`: Number of people that follow the user.
+- `status`: 0 - Enabled, 1 - Live, 2 - Disabled, 3 - Banned
 
 To load your image, you need to use the `shot_cdn` with the id of `video_address` + `.jpg`.
