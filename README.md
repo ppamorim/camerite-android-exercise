@@ -54,6 +54,7 @@ List of videos
   "title": "Driving a fast car",
   "video_address": "https://somerandomurl.com/videos/824532398.mp4",
   "views": 64389,
+  "shot_cdn": "https://cdn1.camerite.com"
   "user": {
     "id": 931,
     "username": "Camerite guy",
@@ -71,3 +72,5 @@ List of videos
 - user.username: Name of the user.
 - user.followers: Number of people that follow the user.
 - status: 0 - Enabled, 1 - Live, 2 - Disabled, 3 - Banned
+
+To load your image, you need to use the `shot_cdn` with the id of `video_address` + `.jpg`.
