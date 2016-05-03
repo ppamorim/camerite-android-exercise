@@ -54,7 +54,7 @@ List of videos
   "title": "Driving a fast car",
   "video_address": "https://somerandomurl.com/videos/824532398.mp4",
   "views": 64389,
-  "shot_cdn": "https://cdn1.camerite.com"
+  "shot_cdn": "https://cdn1.camerite.com",
   "user": {
     "id": 931,
     "username": "Camerite guy",
