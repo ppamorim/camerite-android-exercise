@@ -39,24 +39,24 @@ List of videos
 
 ```json
 [{
-"id": 45,
-"title": "Driving a fast car",
-"video_address": "https://somerandomurl.com/videos/824532398.mp4",
-"views": 64389,
-"user": {
-"id": 931,
-"username": "Camerite guy",
-"followers": 8753,
-"status": 0
-}
+  "id": 45,
+  "title": "Driving a fast car",
+  "video_address": "https://somerandomurl.com/videos/824532398.mp4",
+  "views": 64389,
+  "user": {
+    "id": 931,
+    "username": "Camerite guy",
+    "followers": 8753,
+    "status": 0
+  }
 }]
 ```
 
-id: Id of the camera on database.
-title: Title of the camera.
-video_address: Address of the video, can be a .mp4.
-views: Total of view for the video.
-user.id: Id of the user.
-user.username: Name of the user.
-user.followers: Number of people that follow the user.
-status: 0 - Enabled, 1 - Live, 2 - Disabled, 3 - Banned
+- id: Id of the camera on database.
+- title: Title of the camera.
+- video_address: Address of the video, can be a .mp4.
+- views: Total of view for the video.
+- user.id: Id of the user.
+- user.username: Name of the user.
+- user.followers: Number of people that follow the user.
+- status: 0 - Enabled, 1 - Live, 2 - Disabled, 3 - Banned
