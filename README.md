@@ -17,8 +17,8 @@ Tasks
 
 - Develop the app using Android Studio + Gradle + JUnit ­- 100% native.
 - Handle errors, such as, no internet available, 4XX & 5XX & show a specific message for each one:
-* No Internet Available - “Parece que você está sem internet! Por favor, verifique a sua conexão e tente novamente.”;
-* 4XX- “Houve algum erro na requisição.”;
+  * No Internet Available - “Parece que você está sem internet! Por favor, verifique a sua conexão e tente novamente.”;
+  * 4XX- “Houve algum erro na requisição.”;
   * 5XX- “Desculpe, estamos enfrentando problemas técnicos. Por favor, tente novamente mais tarde.”.
 
 Recommendations
