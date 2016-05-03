@@ -8,7 +8,7 @@ Overview
 
 This test will validate your knowledges of Android, we have an preference for the quality and inovation. Then, you are open to choose any technology to create your application.
 
-The test is simple: Request the data from our service, parse and show the data on a list. When the user click on the list, open a new screen, it shown the informations of determined item.
+The test is simple: Request the data from our service, parse and show the data on a list. When the user click on the list, open a new screen, it needs to show the informations of determined item.
 
 We will verify the consistency of the application and the structure used, unit tests are a plus. Do your best.
 
@@ -24,6 +24,17 @@ Tasks
 - 4XX- “Houve algum erro na requisição.”
 
 - 5XX- “Desculpe, estamos enfrentando problemas técnicos. Por favor, tente novamente mais tarde.”
+
+Recommendations
+---------------
+
+- OkHttp;
+- LoganSquare, Gson or Moshi;
+- MVP, MVVM or anything else;
+- jUnit;
+- Any imageloader;
+- Support Library;
+- RecyclerView.
 
 Data
 ----
@@ -52,8 +63,8 @@ List of videos
 }]
 ```
 
-- id: Id of the camera on database.
-- title: Title of the camera.
+- id: Id of the camera on database;
+- title: Title of the camera;
 - video_address: Address of the video, can be a .mp4.
 - views: Total of view for the video.
 - user.id: Id of the user.
