@@ -1,6 +1,6 @@
 # camerite-android-exercise
 
-- You have up to 1 week to complete the assignment.
+- You have up to 1 week to complete the assignment;
 - You need to fork the project and send a PR for the main repository.
 
 Overview
@@ -17,9 +17,9 @@ Tasks
 
 - Develop the app using Android Studio + Gradle + JUnit ­- 100% native.
 - Handle errors, such as, no internet available, 4XX & 5XX & show a specific message for each one:
-  * No Internet Available - “Parece que você está sem internet! Por favor, verifique a sua conexão e tente novamente.”
-  * 4XX- “Houve algum erro na requisição.”
-  * 5XX- “Desculpe, estamos enfrentando problemas técnicos. Por favor, tente novamente mais tarde.”
+* No Internet Available - “Parece que você está sem internet! Por favor, verifique a sua conexão e tente novamente.”;
+* 4XX- “Houve algum erro na requisição.”;
+  * 5XX- “Desculpe, estamos enfrentando problemas técnicos. Por favor, tente novamente mais tarde.”.
 
 Recommendations
 ---------------
@@ -62,11 +62,11 @@ List of videos
 
 - `id`: Id of the camera on database;
 - `title`: Title of the camera;
-- `video_address`: Address of the video, can be a .mp4.
-- `views`: Total of view for the video.
-- `user.id`: Id of the user.
-- `user.username`: Name of the user.
-- `user.followers`: Number of people that follow the user.
-- `status`: 0 - Enabled, 1 - Live, 2 - Disabled, 3 - Banned
+- `video_address`: Address of the video, can be a .mp4;
+- `views`: Total of view for the video;
+- `user.id`: Id of the user;
+- `user.username`: Name of the user;
+- `user.followers`: Number of people that follow the user;
+- `status`: 0 - Enabled, 1 - Live, 2 - Disabled, 3 - Banned.
 
 To load your image, you need to use the `shot_cdn` with the id of `video_address` + `.jpg`.
