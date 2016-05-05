@@ -1,6 +1,6 @@
 # camerite-android-exercise
 
-- You have up to 1 week to complete the assignment;
+- You have up to 1 day to complete the assignment;
 - You need to fork the project and send a PR for the main repository.
 
 Overview
@@ -60,14 +60,14 @@ List of videos
 }]
 ```
 
-- `id`: Id of the camera on database;
-- `title`: Title of the camera;
+- `id`: Id of the video on database;
+- `title`: Title of the video;
 - `video_address`: Address of the video, can be a .mp4;
 - `views`: Total of view for the video;
 - `user.id`: Id of the user;
 - `user.username`: Name of the user;
 - `user.followers`: Number of people that follow the user;
-- `status`: 0 - Enabled, 1 - Live, 2 - Disabled, 3 - Banned.
+- `status`: 0 - Enabled, 1 - Disabled, 2 - Banned.
 
 To load your image, you need to use the `shot_cdn` + `/public/test/images/` with the id(the last id before `.mp4`) of `video_address` + `.jpg`.
 
